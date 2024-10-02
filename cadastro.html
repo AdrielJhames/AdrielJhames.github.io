@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale=1.0">
+    <meta name="keywords"  content="html,tags, Motorcicle,Honda,Bmw,Kawasaki,moto">
+    <meta name="description" content="Venha comprar sua Superbike conosco!">
+    <meta name="author" content="Diego,Thiago,Adriel">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
+
+</head>
+<body>
+    <header>
+        <h1 class="super">Cadastro</h1>
+        <nav>
+            <div class="botao">
+                <a class="botao__link" href="/index.html">Início</a>
+                <a class="botao__link" href="/cadastro.html">Cadastro</a>
+                <a class="botao__link" href="/sobre.html">Sobre</a>
+                <a class="botao__link" href="/paginanova.html">Apresentação</a>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="formulario">
+            <div>Inicie seu cadastro</div>
+            <div>
+                <label for="txt_nome">Nome:</label>
+                <input type="text" id="txt_nome" maxlength="20" />
+            </div>
+            <div class="row g-3 align-items-center">
+                <div class="col-auto">
+                </div>
+                <div>
+                    <label for="txt_senha"> Senha:</label>
+                    <input type="password" id="txt_senha" maxlength="20" />
+                </div>
+                <h6>Precisa conter um caractér especial.</h6>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div> Deseja receber nossas promoções por E-mail?</div>
+            <div>
+                <label for="rd_entrega">Desejo</label>
+                <input type="radio" id="rd_entrega" name="rd_envio">
+                <label for="rd_retirada">Não Desejo</label>
+                <input type="radio" id="rd_retirada" name="rd_envio">
+                <div>Como conheceu a gente?</div>
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>N/A</option>
+                <option value="1">Rede Social</option>
+                <option value="2">Propaganda</option>
+                <option value="3">Amigos</option>
+                <option value="4">Pesquisa</option>
+            </select>
+        </div>
+    </main>
+    <footer class="foter">
+        <div>Obrigado pela preferência.</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

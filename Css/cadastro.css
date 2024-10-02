@@ -1,0 +1,22 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:x-large;
+    
+}
+.foter{
+    display: flex;
+    flex-direction: column;
+   text-align:center;
+   font-size: large;
+}
+main{
+    height: 60vh;
+}
+.formulario_senha{
+    font-size: 20px;
+}
+
+.botao{
+    margin-top: 20px;}
