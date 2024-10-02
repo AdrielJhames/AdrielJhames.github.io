@@ -1,0 +1,45 @@
+.apresentacao__bem-vindo {
+    display: flex;
+    color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px/*(Espaçamento interno de 10px)*/;
+    margin: 2%;
+    font-family:'krona One', sans-serif;/*estilo da fonte*/
+}
+.apresentacao {
+    display: flex; /*para reorganizar as posições das coisas*/
+    flex-direction: column; /* organiza os elementos em coluna,linha etc.*/
+    align-items: center;/* alinha os itens em relação ao maior elemento*/
+    margin: 5%;
+    font-size: 130%;
+    width: 1100px; /*ajusta largura*/
+    font-family:'krona One', sans-serif;
+}
+.rodape{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    font-size: 140%;
+    margin: 5%;
+    font-family:'krona One', sans-serif;
+}
+.adquira {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin: 2%;
+    font-size: 140%;
+    font-family:'krona One', sans-serif;
+}
+.rodape__botao{
+    background-color: aqua;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px; 
+    font-size: 25px;
+    padding: 10px 2px; 
+    text-decoration: none; 
+    color: black;
+    font-family: 'krona One', sans-serif;
+    font-weight: 600;
+}
